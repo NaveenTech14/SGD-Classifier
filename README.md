@@ -98,9 +98,26 @@ Developed by: S NAVEEN SRINATH
 RegisterNumber:  212225230199
 */
 ```
-
 ## Output:
+Confusion Matrix:
+ [[1 0]
+ [0 1]]
 
+Accuracy Score: 1.0
+
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00         1
+           1       1.00      1.00      1.00         1
+
+    accuracy                           1.00         2
+   macro avg       1.00      1.00      1.00         2
+weighted avg       1.00      1.00      1.00         2
+
+
+Predicted Placement Status: Placed
+Probability of Placement: 1.00
 
 ## Result:
 Thus, the program to implement the prediction of the Iris species using SGD Classifier is written and verified using Python programming.
